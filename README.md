@@ -1,5 +1,3 @@
-
-
 # Bookstore Content Management System(CMS)
 
 Manage you reading list with easy and track your progress.
@@ -14,13 +12,14 @@ Manage you reading list with easy and track your progress.
 
 ## 🚀 Live Application
 
-[Live app](https://github.com/serengia) --(Please check later if this special link is not active by the time you visit)
+[Live app ready for your use]() --(Please check later if this link is not active by the time you visit)
 
 ---
 
 ![screencapture-localhost-3000-categories-2023-03-02-08_28_36](https://user-images.githubusercontent.com/69452516/222339595-f903ab38-3c66-48f9-bdab-b6b2f11af2e6.png)
 
 ---
+
 ## 💻 Getting Started
 
 To run the project in your local environment, get a local copy up and running, follow these steps.
