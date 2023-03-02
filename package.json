@@ -1,0 +1,38 @@
+{
+  "name": "bookstore-nextjs-redux-mongo-db",
+  "version": "1.0.0",
+  "description": "Bookstore app",
+  "main": "next.config.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serengia/bookstore-nextjs-redux-mongo-db.git"
+  },
+  "author": "James Serengia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/serengia/bookstore-nextjs-redux-mongo-db/issues"
+  },
+  "homepage": "https://github.com/serengia/bookstore-nextjs-redux-mongo-db#readme",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.3",
+    "axios": "^1.3.4",
+    "next": "^13.2.3",
+    "react": "^18.2.0",
+    "react-circular-progressbar": "^2.1.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "react-redux": "^8.0.5",
+    "sass": "^1.58.3",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.35.0",
+    "eslint-plugin-react": "^7.32.2"
+  }
+}

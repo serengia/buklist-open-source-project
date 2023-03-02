@@ -1,0 +1,33 @@
+@use "../../styles/variables.scss" as *;
+
+.nav {
+  height: 100%;
+
+  .nav-links {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    .nav-link {
+      a {
+        &:link,
+        &:visited {
+          text-decoration: none;
+          color: $color-grey-2;
+          transition: all 0.2s;
+        }
+
+        &:hover,
+        &:active {
+          color: $color-grey-1;
+        }
+
+        &.active-link {
+          color: $color-grey-1;
+        }
+      }
+    }
+  }
+}
