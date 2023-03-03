@@ -1,6 +1,12 @@
 import React from "react";
-import BooksList from "../components/Book/BooksList";
+import Hero from "../components/Home/Hero";
+import PopularReads from "../components/Home/PopularReads";
 
-export default function index() {
-  return <BooksList />;
+export default function HomePage() {
+  return (
+    <div style={{ backgroundColor: "#e6e6e9" }}>
+      <Hero />
+      <PopularReads />
+    </div>
+  );
 }

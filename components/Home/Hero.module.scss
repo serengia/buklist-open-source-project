@@ -1,0 +1,47 @@
+.section-hero {
+  padding: 2rem 0;
+
+  .hero-container {
+    height: 35rem;
+    border-radius: 2rem;
+    background-size: cover;
+    overflow: hidden;
+
+    .content {
+      padding: 4rem;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 2rem;
+      justify-content: center;
+
+      color: #fff;
+      background-color: rgba(1, 1, 36, 0.5);
+      height: 100%;
+
+      .manage-btn {
+        background-color: #e4342d;
+        color: #fff;
+        cursor: pointer;
+        padding: 1rem 2rem;
+        border-radius: 0.6rem;
+        font-size: 1.6rem;
+        font-family: inherit;
+        border: none;
+        margin-top: 2rem;
+
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+
+        .icon {
+          font-size: 2rem;
+        }
+      }
+    }
+
+    h1 {
+      font-size: 5rem;
+    }
+  }
+}

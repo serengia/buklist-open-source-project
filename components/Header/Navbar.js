@@ -6,19 +6,28 @@ import s from "./Navbar.module.scss";
 
 function Navbar() {
   const router = useRouter();
+  console.log("Check path", router.asPath);
+
   return (
     <nav className={s["nav"]}>
       <ul className={s["nav-links"]}>
         <li
           className={`${s["nav-link"]} ${
-            s[router.asPath == "/" ? "active" : ""]
+            s[router.asPath == "/" ? "active-link" : ""]
           }`}
         >
-          <Link href="/">Books</Link>
+          <Link href="/">Home</Link>
         </li>
         <li
           className={`${s["nav-link"]} ${
-            s[router.asPath == "/" ? "active" : ""]
+            s[router.asPath == "/books" ? "active-link" : ""]
+          }`}
+        >
+          <Link href="/books">Books</Link>
+        </li>
+        <li
+          className={`${s["nav-link"]} ${
+            s[router.asPath == "/categories" ? "active-link" : ""]
           }`}
         >
           <Link href="/categories">Categories</Link>

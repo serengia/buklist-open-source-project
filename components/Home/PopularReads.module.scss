@@ -1,0 +1,11 @@
+.section-popular {
+  padding: 4rem 0 6rem 0;
+
+  .popular-container {
+    .books {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+      gap: 3rem;
+    }
+  }
+}
