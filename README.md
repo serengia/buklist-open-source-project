@@ -1,6 +1,6 @@
 # Buklist open-source project
 
-Manage you reading list with easy and track your progress at **buklist.com**.
+Manage you reading list with easy and track your progress for free at **buklist.com**.
 
 # About
 **Buklist.com project** is an open source project currently managed my [@serengia](https://github.com/serengia) .
