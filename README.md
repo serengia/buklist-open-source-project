@@ -1,9 +1,9 @@
-# Bookstore Content Management System(CMS)
+# Buklist open-source project
 
-Manage you reading list with easy and track your progress.
+Manage you reading list with easy and track your progress at **buklist.com**.
 
 # About
-Buklist.com project is an open source project currently managed my [@serengia] .
+**Buklist.com** project is an open source project currently managed my [@serengia] .
 
 **Mission** - To help people achieve their reading goals and contribute in making their
             future brighter.
