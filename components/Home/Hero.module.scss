@@ -1,0 +1,74 @@
+.section-hero {
+  font-family: "Poppins";
+  padding: 6rem 0;
+  background-color: #fff;
+
+  .hero-container {
+    height: 35rem;
+    display: flex;
+    gap: 4rem;
+
+    .content {
+      flex: 3;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      justify-content: center;
+
+      // background-color: rgba(1, 1, 36, 0.6);
+      height: 100%;
+
+      .manage-btn {
+        background-color: #e4342d;
+        color: #fff;
+        cursor: pointer;
+        padding: 1rem 2rem;
+        border-radius: 0.6rem;
+        font-size: 1.6rem;
+        font-family: inherit;
+        border: none;
+        margin-top: 2rem;
+
+        align-self: flex-start;
+
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+
+        .icon {
+          font-size: 2rem;
+        }
+      }
+
+      .heading {
+        font-size: 2.6rem;
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+      }
+      .description {
+        font-size: 4rem;
+        line-height: 1.2;
+        margin-top: -2rem;
+        color: #363636;
+        display: flex;
+        // align-items: center;
+        gap: 0.4rem;
+        .icon {
+          fill: #fdd12e;
+          color: #fff;
+        }
+      }
+    }
+
+    .image-wrapper {
+      border-radius: 2rem;
+      overflow: hidden;
+      flex: 2;
+      position: relative;
+      height: 100%;
+      .image {
+        object-fit: cover;
+      }
+    }
+  }
+}

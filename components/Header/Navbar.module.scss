@@ -8,7 +8,7 @@
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
 
     .nav-link {
       a {
@@ -23,11 +23,11 @@
         &:active {
           color: $color-grey-1;
         }
-
-        &.active-link {
-          color: $color-grey-1;
-        }
       }
+    }
+
+    .nav-link.active-link a {
+      color: #010856;
     }
   }
 }

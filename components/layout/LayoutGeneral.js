@@ -6,7 +6,7 @@ export default function LayoutGeneral({ children }) {
   return (
     <>
       <Header />
-      <main>{children}</main>
+      <main className={"main-wrapper"}>{children}</main>
       <Footer />
     </>
   );
