@@ -1,23 +1,21 @@
 .section-hero {
   font-family: "Poppins";
-  padding: 2rem 0;
+  padding: 6rem 0;
+  background-color: #fff;
 
   .hero-container {
     height: 35rem;
-    border-radius: 2rem;
-    background-size: cover;
-    overflow: hidden;
+    display: flex;
+    gap: 4rem;
 
     .content {
-      padding: 4rem;
+      flex: 3;
       display: flex;
-      align-items: center;
       flex-direction: column;
       gap: 2rem;
       justify-content: center;
 
-      color: #fff;
-      background-color: rgba(1, 1, 36, 0.6);
+      // background-color: rgba(1, 1, 36, 0.6);
       height: 100%;
 
       .manage-btn {
@@ -31,6 +29,8 @@
         border: none;
         margin-top: 2rem;
 
+        align-self: flex-start;
+
         display: flex;
         align-items: center;
         gap: 0.4rem;
@@ -41,20 +41,33 @@
       }
 
       .heading {
-        font-size: 2rem;
+        font-size: 2.6rem;
         text-transform: uppercase;
+        margin-bottom: 2rem;
       }
       .description {
         font-size: 4rem;
+        line-height: 1.2;
         margin-top: -2rem;
-        color: #c4c4c4;
+        color: #363636;
         display: flex;
-        align-items: center;
+        // align-items: center;
         gap: 0.4rem;
         .icon {
           fill: #fdd12e;
           color: #fff;
         }
+      }
+    }
+
+    .image-wrapper {
+      border-radius: 2rem;
+      overflow: hidden;
+      flex: 2;
+      position: relative;
+      height: 100%;
+      .image {
+        object-fit: cover;
       }
     }
   }

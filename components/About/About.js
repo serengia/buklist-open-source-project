@@ -19,9 +19,9 @@ export default function About() {
               <p>
                 After spending 30 minutes on social media, many times you leave
                 feeling depressed instead of being uplifted. I wanted to change
-                that by create a platform that actually empowers you. Our goal
-                is to make you feel proud of yourself for every minute you spend
-                on our platform. - James Serengia
+                that by create a platform that actually empowers. Our goal is to
+                make you feel proud of yourself for every minute you spend on
+                our platform. - James Serengia
               </p>
             </div>
           </div>

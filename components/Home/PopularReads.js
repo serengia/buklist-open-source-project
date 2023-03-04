@@ -52,6 +52,30 @@ export default function PopularReads() {
       author: "Josh Kaufman",
       imageUrl: "/img/books/mba.jpg",
     },
+    {
+      id: "b9",
+      title: "The Pragmatic Programmer",
+      author: "A. Hunt & D. Thomas",
+      imageUrl: "/img/books/pragmatic.png",
+    },
+    {
+      id: "b10",
+      title: "What Great Brands Do",
+      author: "Denise Lee Yohn",
+      imageUrl: "/img/books/what-great-brands-do.jpg",
+    },
+    {
+      id: "b11",
+      title: "Outliers",
+      author: "Malcolm Gladwell",
+      imageUrl: "/img/books/outlier.jpg",
+    },
+    {
+      id: "b12",
+      title: "Coders at Work",
+      author: "P. Seibel",
+      imageUrl: "/img/books/coders-at-work.png",
+    },
   ];
   return (
     <section className={s["section-popular"]}>
