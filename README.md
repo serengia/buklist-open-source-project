@@ -2,13 +2,18 @@
 
 Manage you reading list with easy and track your progress.
 
-# Built with
+# About
+Buklist.com project is an open source project currently managed my [@serengia] .
 
-- React
-- Next JS
-- Redux
-- Express
-- MongoDB
+**Mission** - To help people achieve their reading goals and contribute in making their
+            future brighter.
+            
+**Motivation/back story** - After spending 30 minutes on social media, many times you leave
+                feeling depressed instead of being uplifted. I wanted to change
+                that by create a platform that actually empowers. Our goal
+                is to make you feel proud of yourself for every minute you spend
+                on our platform. - James Serengia
+
 
 ## 🚀 Live Application
 
@@ -20,40 +25,16 @@ Manage you reading list with easy and track your progress.
 
 ---
 
-## 💻 Getting Started
+# Built with
 
-To run the project in your local environment, get a local copy up and running, follow these steps.
+- React
+- Next JS
+- Redux
+- Express
+- MongoDB
 
-### Prerequisites
 
-In order to run this project you need node js installed in your system.
-
-### Install
-
-Install this project with:
-
-```sh
-  cd project-folder
-  npm install
-```
-
-### Usage
-
-To run the project, execute the following command:
-
-```sh
-  npm start
-```
-
-### Run tests
-
-To run tests, run the following command:
-
-```sh
-  npm test
-```
-
-## 👥 Author <a name="authors"></a>
+## 👥 Authors <a name="authors"></a>
 
 👤 **James Serengia**
 
@@ -72,7 +53,8 @@ More features will be added from time to time.
 You want to be contribute in making this app better?
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+💡**Impotant note** - We are working on proper documentation on the steps one can take to contribute to this project. You can star the project not to miss any update.
+
 
 ## Show your support
 
