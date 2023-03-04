@@ -20,7 +20,7 @@ Manage you reading list with easy and track your progress for free at **buklist.
 
 ---
 
-![screencapture-localhost-3000-2023-03-04-09_11_30](https://user-images.githubusercontent.com/69452516/222879365-99861e01-b8cf-4eb7-8f8e-e7fe9ae1ee5d.png)
+![buklist-screenshot](https://user-images.githubusercontent.com/69452516/222884898-cd1cc788-d8ac-4d58-a0e3-6c6af1f114e0.png)
 
 ---
 
