@@ -3,14 +3,14 @@
 Manage you reading list with easy and track your progress at **buklist.com**.
 
 # About
-**Buklist.com** project is an open source project currently managed my [@serengia] .
+**Buklist.com** project is an open source project currently managed my [@serengia](https://github.com/serengia) .
 
 **Mission** - To help people achieve their reading goals and contribute in making their
             future brighter.
             
-**Motivation/back story** - After spending 30 minutes on social media, many times you leave
-                feeling depressed instead of being uplifted. I wanted to change
-                that by create a platform that actually empowers. Our goal
+**Motivation/back-story** - After spending 30 minutes on social media, many times I would leave
+                feeling depressed instead of being uplifted. I quickly realised that millions of people feel the same and I wanted to change
+                that by create a platform that actually empowers empowers. That's how **buklist.com** was born. Our goal
                 is to make you feel proud of yourself for every minute you spend
                 on our platform. - James Serengia
 
@@ -32,6 +32,7 @@ Manage you reading list with easy and track your progress at **buklist.com**.
 - Redux
 - Express
 - MongoDB
+- and other related technologies
 
 
 ## 👥 Authors <a name="authors"></a>
