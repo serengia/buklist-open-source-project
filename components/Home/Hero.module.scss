@@ -1,4 +1,5 @@
 .section-hero {
+  font-family: "Poppins";
   padding: 2rem 0;
 
   .hero-container {
@@ -16,7 +17,7 @@
       justify-content: center;
 
       color: #fff;
-      background-color: rgba(1, 1, 36, 0.5);
+      background-color: rgba(1, 1, 36, 0.6);
       height: 100%;
 
       .manage-btn {
@@ -38,10 +39,23 @@
           font-size: 2rem;
         }
       }
-    }
 
-    h1 {
-      font-size: 5rem;
+      .heading {
+        font-size: 2rem;
+        text-transform: uppercase;
+      }
+      .description {
+        font-size: 4rem;
+        margin-top: -2rem;
+        color: #c4c4c4;
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+        .icon {
+          fill: #fdd12e;
+          color: #fff;
+        }
+      }
     }
   }
 }

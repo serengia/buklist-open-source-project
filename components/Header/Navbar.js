@@ -32,6 +32,13 @@ function Navbar() {
         >
           <Link href="/categories">Categories</Link>
         </li>
+        <li
+          className={`${s["nav-link"]} ${
+            s[router.asPath == "/about" ? "active-link" : ""]
+          }`}
+        >
+          <Link href="/about">About</Link>
+        </li>
       </ul>
     </nav>
   );

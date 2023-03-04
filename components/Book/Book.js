@@ -1,13 +1,25 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import { useDispatch } from "react-redux";
 import { booksActions, deleteBook } from "../../redux/books/booksSlice";
 import "react-circular-progressbar/dist/styles.css";
 import ProgressBar from "../ProgressBar/ProgressBar";
 import s from "./Book.module.scss";
+import { CSSTransition } from "react-transition-group";
+import Modal from "../Modal/Modal";
 
 function Book(props) {
-  const dispatch = useDispatch();
   const { title, author, id, category } = props;
+  const dispatch = useDispatch();
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+  const nodeRef = useRef(null);
+
+  const openModalHandler = () => {
+    setModalIsOpen(true);
+  };
+
+  const closeModalHandler = () => {
+    setModalIsOpen(false);
+  };
 
   const removeBookHandler = (e) => {
     // Dispatch remove book action
@@ -45,9 +57,28 @@ function Book(props) {
       <div className={s["chapter"]}>
         <span className={s["title"]}>Current Chapter</span>
         <h4 className={s["chapter-text"]}>Chapter 17</h4>
-        <button type="button" className={s["progress-btn"]}>
+        <button
+          type="button"
+          className={s["progress-btn"]}
+          onClick={openModalHandler}
+        >
           Update progress
         </button>
+        <CSSTransition
+          in={modalIsOpen}
+          nodeRef={nodeRef}
+          timeout={300}
+          classNames="modal-animation"
+          unmountOnExit
+          mountOnEnter
+        >
+          <Modal
+            nodeRef={nodeRef}
+            closeModalHandler={closeModalHandler}
+            // openModalHandler={openModalHandler}
+            modalIsOpen={modalIsOpen}
+          />
+        </CSSTransition>
       </div>
     </div>
   );

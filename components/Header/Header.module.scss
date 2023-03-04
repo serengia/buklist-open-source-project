@@ -3,12 +3,19 @@
 .header {
   background-color: #fff;
   border-bottom: 1px solid $color-border;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 800;
 
   .logo {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 2.4rem;
     &:link,
     &:visited {
       text-decoration: none;
-      color: $color-blue;
+      color: #010124;
     }
   }
 
@@ -19,32 +26,33 @@
     gap: 4rem;
   }
 
-  .user {
+  .actions {
     margin-left: auto;
-
-    .icon {
-      box-sizing: content-box;
-      padding: 1rem;
-      color: $color-blue;
-      font-size: 1.8rem;
-      border: solid 1px $color-border;
-      border-radius: 50%;
+    .user {
+      .icon {
+        box-sizing: content-box;
+        padding: 1rem;
+        color: #010124;
+        font-size: 1.8rem;
+        border: solid 1px #010124;
+        border-radius: 50%;
+      }
     }
-  }
 
-  .auth-button {
-    display: flex;
-    align-items: center;
-    padding: 0.6rem 1.2rem;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-    background-color: rgb(1, 8, 86);
-    color: #fff;
+    .auth-button {
+      display: flex;
+      align-items: center;
+      padding: 0.6rem 1.2rem;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+      background-color: rgb(1, 8, 86);
+      color: #fff;
 
-    gap: 0.6rem;
-    .icon {
-      font-size: 2rem;
+      gap: 0.6rem;
+      .icon {
+        font-size: 2rem;
+      }
     }
   }
 }
