@@ -16,7 +16,7 @@ Manage you reading list with easy and track your progress.
 
 ---
 
-![screen-sht](https://user-images.githubusercontent.com/69452516/222739460-90d06c16-22fa-402f-8914-7f70e0ec2bdc.png)
+![screencapture-localhost-3000-2023-03-04-09_11_30](https://user-images.githubusercontent.com/69452516/222879365-99861e01-b8cf-4eb7-8f8e-e7fe9ae1ee5d.png)
 
 ---
 
