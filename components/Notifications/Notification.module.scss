@@ -1,0 +1,27 @@
+.notification {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 600px;
+  background-color: #fff;
+  box-shadow: 0 0 1rem 1rem rgba(0, 0, 0, 0.049);
+  padding: 1rem;
+  border-radius: 4px;
+  z-index: 199;
+
+  .header {
+    display: flex;
+    justify-content: flex-end;
+
+    button {
+      border: none;
+      background-color: #ddd;
+      padding: 0.3rem 0.5rem;
+      border-radius: 2px;
+      font-family: inherit;
+      font-size: 1.8rem;
+      line-height: 1;
+    }
+  }
+}

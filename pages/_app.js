@@ -1,5 +1,6 @@
 import { Provider } from "react-redux";
 import { SessionProvider } from "next-auth/react";
+import "react-toastify/dist/ReactToastify.css";
 import LayoutGeneral from "../components/layout/LayoutGeneral";
 import store from "../redux/store";
 import "../styles/globals.scss";

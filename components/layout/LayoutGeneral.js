@@ -7,6 +7,7 @@ export default function LayoutGeneral({ children }) {
     <>
       <Header />
       <main className={"main-wrapper"}>{children}</main>
+
       <Footer />
     </>
   );

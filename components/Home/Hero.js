@@ -10,6 +10,7 @@ export default function Hero() {
   const buttonClickHandler = () => {
     router.push("/login");
   };
+
   return (
     <section className={s["section-hero"]}>
       <div className={`${s["hero-container"]} row`}>

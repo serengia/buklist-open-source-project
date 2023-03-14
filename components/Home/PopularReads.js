@@ -1,5 +1,5 @@
 import React from "react";
-import PopularBook from "../Book/PopularBook";
+import PopularBook from "../Books/PopularBook";
 import s from "./PopularReads.module.scss";
 
 export default function PopularReads() {
@@ -10,6 +10,7 @@ export default function PopularReads() {
       author: "Paulo Coelho",
       imageUrl: "/img/books/alchemist.jpg",
     },
+
     {
       id: "b2",
       title: "15 Laws of Growth",

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import Book from "../Book/Book";
+import Book from "../Books/Book";
 import { getBooks } from "../../redux/books/booksSlice";
 import { categoriesActions } from "../../redux/categories/categoriesSlice";
 import s from "./AllCategories.module.scss";
