@@ -11,12 +11,12 @@ Manage you reading list with easy and track your progress for free at **buklist.
 **Motivation/back-story** - After spending 30 minutes on social media, many times I would leave
                 feeling depressed instead of being uplifted. I quickly realised that millions of people feel the same and I wanted to change
                 that by creating a platform that actually empowers. That's how **buklist.com** was born. Our goal
-                is to make people feel proud of themselves for every minute you spend on our platform as we continue to make it better with more features. - James Serengia
+                is to make people feel proud of themselves for every minute they spend on our platform as we continue to make it better with more features. - James Serengia
 
 
 ## 🚀 Live Application
 
-[Live app ready for your use](https://buklist-open-source-project.vercel.app/) - NOTE: We will update the domain link to **bulkist.com** once we are through with some essential features.
+[Live app version](https://buklist-open-source-project.vercel.app/) - NOTE: We will update the domain link to **bulkist.com** once we are through with some essential features.
 
 ---
 
