@@ -16,7 +16,7 @@ Manage you reading list with easy and track your progress for free at **buklist.
 
 ## 🚀 Live Application
 
-[Live app ready for your use]() --(Please check later if this link is not active by the time you visit)
+[Live app ready for your use](https://buklist-open-source-project.vercel.app/) - NOTE: We will update the domain link to **bulkist.com** once we are through with some essential features.
 
 ---
 
