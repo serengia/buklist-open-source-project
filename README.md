@@ -20,7 +20,7 @@ Manage you reading list with easy and track your progress for free at **buklist.
 
 ---
 
-![buklist-screenshot](https://user-images.githubusercontent.com/69452516/222884898-cd1cc788-d8ac-4d58-a0e3-6c6af1f114e0.png)
+![screencapture-buklist-open-source-project-vercel-app-2023-03-14-09_17_54](https://user-images.githubusercontent.com/69452516/224912944-bf5c71ae-c126-400e-b152-475f722b8d1b.png)
 
 ---
 
