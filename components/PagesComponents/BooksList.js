@@ -1,8 +1,10 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getBooks } from "../../redux/books/booksSlice";
+import Book from "../Books/Book";
 import Form from "../Form/Form";
-import Book from "./Book";
+import Notification from "../Notifications/Notification";
+
 import s from "./BooksList.module.scss";
 
 function BooksList() {
@@ -38,6 +40,7 @@ function BooksList() {
         <div className={s["books-list"]}>{output}</div>
       </div>
       <Form />
+      <Notification />
     </div>
   );
 }

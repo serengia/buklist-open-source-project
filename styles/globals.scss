@@ -79,3 +79,27 @@ p {
     opacity: 0;
   }
 }
+
+.notification-animate-enter-active {
+  animation: notificationEnter 1s;
+}
+.notification-animate-exit-active {
+  animation: notificationExit 1s;
+}
+
+@keyframes notificationEnter {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes notificationExit {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

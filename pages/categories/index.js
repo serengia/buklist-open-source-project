@@ -1,6 +1,6 @@
 import React from "react";
-import AllCategories from "../../components/Category/AllCategories";
+import Categories from "../../components/PagesComponents/Categories";
 
 export default function index() {
-  return <AllCategories />;
+  return <Categories />;
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import { BsFillHeartFill, BsGithub } from "react-icons/bs";
+
 import s from "./Footer.module.scss";
 
 export default function Footer() {

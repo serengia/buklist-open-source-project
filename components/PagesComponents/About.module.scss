@@ -1,0 +1,18 @@
+@use "../../styles/variables.scss" as *;
+
+.about-page {
+  .section-about {
+    padding: 4rem 0;
+
+    .content {
+      .mission-lead {
+        margin-top: 2rem;
+        font-weight: 800;
+        margin-bottom: 0.5rem;
+      }
+      .founder-message-lead {
+        margin-top: 4rem;
+      }
+    }
+  }
+}

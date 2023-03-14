@@ -1,4 +1,5 @@
 import React from "react";
+import Notification from "../Notifications/Notification";
 import s from "./About.module.scss";
 
 export default function About() {
@@ -7,12 +8,14 @@ export default function About() {
       <section className={s["section-about"]}>
         <div className={`${s["content"]} row`}>
           <h1>About Us</h1>
-          <p>Our mission is simple:</p>
+          <p className={s["mission-lead"]}>Our mission is simple:</p>
           <p className={s["mission"]}>
             To help you achieve your reading goals and contribute in making your
             future brighter.
           </p>
-          <h2>Message from our founder</h2>
+          <h2 className={s["founder-message-lead"]}>
+            Message from our founder
+          </h2>
           <div className={s["founder-message"]}>
             Image
             <div className={s["story"]}>
@@ -26,6 +29,7 @@ export default function About() {
             </div>
           </div>
         </div>
+        <Notification />
       </section>
     </div>
   );
