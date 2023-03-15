@@ -1,5 +1,4 @@
 import React from "react";
-import Notification from "../Notifications/Notification";
 import s from "./About.module.scss";
 
 export default function About() {
@@ -29,7 +28,6 @@ export default function About() {
             </div>
           </div>
         </div>
-        <Notification />
       </section>
     </div>
   );

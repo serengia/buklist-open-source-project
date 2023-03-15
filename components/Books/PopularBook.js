@@ -12,7 +12,7 @@ export default function PopularBook(props) {
           backgroundImage: `linear-gradient(to bottom, rgba(1, 1, 36, 0.7), rgba(1, 1, 36, 0.7)), url(${imageUrl})`,
         }}
       >
-        <Image src={imageUrl} fill className={s["image"]} />
+        <Image src={imageUrl} fill className={s["image"]} alt={title} />
       </div>
       <div className={s["content"]}>
         <h3>{title}</h3>

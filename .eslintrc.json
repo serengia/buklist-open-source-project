@@ -25,6 +25,7 @@
     "implicit-arrow-linebreak": "off",
     "react/jsx-curly-newline": "off",
     "operator-linebreak": "off",
-    "dot-location": "off"
+    "dot-location": "off",
+    "no-unused-vars": "warn"
   }
 }

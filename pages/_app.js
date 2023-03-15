@@ -5,11 +5,14 @@ import LayoutGeneral from "../components/layout/LayoutGeneral";
 import store from "../redux/store";
 import "../styles/globals.scss";
 
-export default function App({ Component, pageProps }) {
+export default function App({
+  Component,
+  pageProps: { session, ...pageProps },
+}) {
   const getLayout =
     Component.getLayout ?? ((page) => <LayoutGeneral>{page}</LayoutGeneral>);
   return (
-    <SessionProvider>
+    <SessionProvider session={session}>
       <Provider store={store}>
         {getLayout(<Component {...pageProps} />)}
       </Provider>
