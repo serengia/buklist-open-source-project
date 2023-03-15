@@ -33,12 +33,14 @@ export default function Login() {
             id=""
             ref={emailInputRef}
             placeholder="john@gmail.com"
+            defaultValue="example@gmail.com"
           />
           <input
             type="password"
             name="password"
             ref={passwordInputRef}
             placeholder="Enter password"
+            defaultValue="pass1234"
           />
           <button>Submit</button>
         </form>
