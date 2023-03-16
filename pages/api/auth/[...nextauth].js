@@ -1,15 +1,14 @@
+/* eslint-disable no-undef */
 import NextAuth from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
+import GoogleProvider from "next-auth/providers/google";
+import GithubProvider from "next-auth/providers/github";
 
 export const authOptions = {
   // Configure one or more authentication providers
   providers: [
     CredentialsProvider({
       name: "Credentials",
-      // credentials: {
-      //   username: { label: "Username", type: "text", placeholder: "jsmith" },
-      //   password: { label: "Password", type: "password" },
-      // },
       async authorize(credentials, req) {
         const { email, password } = credentials;
         if (!email || !password) return null;
@@ -29,9 +28,37 @@ export const authOptions = {
         }
       },
     }),
+    GoogleProvider({
+      clientId: process.env.GOOGLE_CLIENT_ID,
+      clientSecret: process.env.GOOGLE_SECRET,
+    }),
+    GithubProvider({
+      clientId: process.env.GITHUB_CLIENT_ID,
+      clientSecret: process.env.GITHUB_SECRET,
+    }),
   ],
 
   callbacks: {
+    async signIn({ account, profile }) {
+      if (account.provider === "google") {
+        // Save user to database
+
+        console.log(
+          "GOOGLE PROVIDER: Implement the logic for creating a new user - DB"
+        );
+
+        return true;
+      }
+      if (account.provider === "github") {
+        // Save user to database
+        console.log(
+          "GITHUB PROVIDER: Implement the logic for creating a new user- DB"
+        );
+
+        return true;
+      }
+      return true; // Do different verification for other providers that don't have `email_verified`
+    },
     jwt: async ({ token, user }) => {
       if (user) {
         token.id = user.id;
@@ -45,10 +72,8 @@ export const authOptions = {
       return session;
     },
   },
-  // eslint-disable-next-line no-undef
   secret: process.env.NEXTAUTH_SECRET,
   jwt: {
-    // eslint-disable-next-line no-undef
     secret: process.env.NEXTAUTH_SECRET,
     encryption: true,
   },

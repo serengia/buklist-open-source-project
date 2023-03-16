@@ -1,0 +1,29 @@
+@use "../../../styles/variables.scss" as *;
+
+.button {
+  padding: 1rem 2rem;
+  cursor: pointer;
+  border: none;
+  font-size: 1.6rem;
+  font-weight: inherit;
+  font-family: inherit;
+  border-radius: 0.4rem;
+}
+
+.button-primary {
+  background-color: $color-primary;
+  color: $color-primary-text-light;
+  transition: all 0.2s;
+  &:hover {
+    background-color: $color-primary-dark;
+  }
+}
+
+.button-secondary {
+  background-color: $color-secondary;
+  color: $color-secondary-text-light;
+  transition: all 0.2s;
+  &:hover {
+    background-color: $color-secondary-dark;
+  }
+}
