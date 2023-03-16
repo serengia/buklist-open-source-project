@@ -1,3 +1,4 @@
+import { useSession } from "next-auth/react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React from "react";
@@ -6,7 +7,7 @@ import s from "./Navbar.module.scss";
 
 function Navbar() {
   const router = useRouter();
-  console.log("Check path", router.asPath);
+  const { status } = useSession();
 
   return (
     <nav className={s["nav"]}>
@@ -18,6 +19,16 @@ function Navbar() {
         >
           <Link href="/">Home</Link>
         </li>
+        {status === "authenticated" && (
+          <li
+            className={`${s["nav-link"]} ${
+              s[router.asPath == "/dashboard" ? "active-link" : ""]
+            }`}
+          >
+            <Link href="/dashboard">Dashboard</Link>
+          </li>
+        )}
+
         <li
           className={`${s["nav-link"]} ${
             s[router.asPath == "/books" ? "active-link" : ""]

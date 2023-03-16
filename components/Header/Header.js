@@ -7,6 +7,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { signOut, useSession } from "next-auth/react";
 import Image from "next/image";
+import { BsBoxArrowRight } from "react-icons/bs";
 
 function Header() {
   const router = useRouter();
@@ -20,6 +21,9 @@ function Header() {
   console.log("status>", status);
 
   const signOutHandler = () => {
+    // close popper
+    setShowPopper(false);
+
     signOut({ redirect: false });
   };
 
@@ -40,8 +44,7 @@ function Header() {
 
           {status === "authenticated" && (
             <div
-              onMouseEnter={() => setShowPopper(true)}
-              onMouseLeave={() => setShowPopper(false)}
+              onClick={() => setShowPopper(!showPopper)}
               className={s["avatar-box"]}
             >
               <span className={s["name"]}> {session.user.name}</span>
@@ -54,14 +57,31 @@ function Header() {
                   alt={session.user.name}
                 />
               </div>
-              {showPopper && (
-                <div className={s["popper"]}>
-                  <p>Popper</p>
-                  <button onClick={signOutHandler} className={s["logout-btn"]}>
-                    Logout
-                  </button>
-                </div>
-              )}
+            </div>
+          )}
+
+          {showPopper && (
+            <div className={s["popper"]}>
+              <ul className={s["popper-links"]}>
+                <li>
+                  <Link onClick={() => setShowPopper(false)} href="/dashboard">
+                    Dashboard
+                  </Link>
+                </li>
+                <li>
+                  <Link onClick={() => setShowPopper(false)} href="/dashboard">
+                    Analytics
+                  </Link>
+                </li>
+                <li>
+                  <Link onClick={() => setShowPopper(false)} href="/dashboard">
+                    Messages
+                  </Link>
+                </li>
+              </ul>
+              <button onClick={signOutHandler} className={s["logout-btn"]}>
+                <BsBoxArrowRight className={s["icon"]} /> Logout
+              </button>
             </div>
           )}
         </div>

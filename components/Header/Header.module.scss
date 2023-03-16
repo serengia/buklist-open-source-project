@@ -31,6 +31,7 @@
     display: flex;
     align-items: center;
     gap: 1rem;
+    position: relative;
 
     .auth-button {
       display: flex;
@@ -49,7 +50,6 @@
     }
 
     .avatar-box {
-      position: relative;
       display: flex;
       align-items: center;
       gap: 0.5rem;
@@ -62,18 +62,62 @@
           border-radius: 50%;
         }
       }
+    }
+    .popper {
+      position: absolute;
+      top: 100%;
+      min-width: 18rem;
+      right: 0;
+      margin-top: 0.5rem;
+      padding: 2rem;
+      background-color: #fff;
+      border-radius: 0.4rem;
+      box-shadow: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.03);
+      z-index: 100;
 
-      .popper {
-        position: absolute;
-        top: 100%;
-        min-width: 10rem;
-        right: 0;
-        margin-top: 0.5rem;
-        padding: 1rem;
-        background-color: #fff;
-        border-radius: 0.4rem;
-        box-shadow: 0 0 1rem 1rem rgba(0, 0, 0, 0.01);
-        z-index: 100;
+      .popper-links {
+        list-style: none;
+        li {
+          padding: 1rem 0;
+          border-bottom: 1px solid $color-border;
+
+          a {
+            &:link,
+            &:visited {
+              text-decoration: none;
+              color: $color-grey-1;
+              transition: all 0.2s;
+              font-size: 1.5rem;
+            }
+            &:hover,
+            &:active {
+              color: $color-primary;
+            }
+          }
+        }
+      }
+
+      button {
+        margin-top: 2rem;
+        font-size: 1.6rem;
+        color: $color-grey-1;
+        font-family: inherit;
+        font-weight: 400;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        transition: all 0.2s;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        &:hover {
+          color: $color-primary;
+        }
+
+        .icon {
+          font-size: 2.2rem;
+        }
       }
     }
   }
