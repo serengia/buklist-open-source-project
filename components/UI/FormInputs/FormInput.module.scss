@@ -1,0 +1,21 @@
+@use "../../../styles/variables.scss" as *;
+
+.input-wrapper {
+  margin-bottom: 1rem;
+  label,
+  input {
+    width: 100%;
+  }
+  input {
+    padding: 1rem 2rem;
+    border: $color-border;
+    border-radius: 0.4rem;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 1.6rem;
+
+    &::placeholder {
+      color: $color-grey-2;
+    }
+  }
+}

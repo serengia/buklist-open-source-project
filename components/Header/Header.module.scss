@@ -28,16 +28,9 @@
 
   .actions {
     margin-left: auto;
-    .user {
-      .icon {
-        box-sizing: content-box;
-        padding: 1rem;
-        color: #010124;
-        font-size: 1.8rem;
-        border: solid 1px #010124;
-        border-radius: 50%;
-      }
-    }
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 
     .auth-button {
       display: flex;
@@ -52,6 +45,35 @@
       gap: 0.6rem;
       .icon {
         font-size: 2rem;
+      }
+    }
+
+    .avatar-box {
+      position: relative;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      cursor: pointer;
+      .name {
+        font-size: 1.5rem;
+      }
+      .avatar {
+        .avatar-image {
+          border-radius: 50%;
+        }
+      }
+
+      .popper {
+        position: absolute;
+        top: 100%;
+        min-width: 10rem;
+        right: 0;
+        margin-top: 0.5rem;
+        padding: 1rem;
+        background-color: #fff;
+        border-radius: 0.4rem;
+        box-shadow: 0 0 1rem 1rem rgba(0, 0, 0, 0.01);
+        z-index: 100;
       }
     }
   }

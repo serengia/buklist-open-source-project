@@ -1,10 +1,111 @@
+@use "../../styles/variables.scss" as *;
+
 .login-page {
   .container {
     padding: 4rem 0;
 
-    .heading {
-      text-align: center;
-      text-align: center;
+    .form-wrapper {
+      padding: 6rem 4rem;
+      width: 50%;
+
+      margin: 0 auto;
+      background-color: #fff;
+      border-radius: 0.5rem;
+      box-shadow: $shadow-1;
+      .heading {
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+
+      .form {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        .or {
+          align-self: center;
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
+          margin: 2rem 0;
+          line-height: 1;
+          text-transform: uppercase;
+          .dash {
+            width: 10rem;
+            height: 2px;
+            background-color: $color-border;
+          }
+        }
+      }
+    }
+  }
+}
+
+.sign-in-with-btn {
+  padding: 1rem 2rem;
+  cursor: pointer;
+  border: none;
+  font-size: 1.6rem;
+  font-weight: inherit;
+  font-family: inherit;
+  border-radius: 0.4rem;
+  border: 1px solid $color-border;
+  background-color: transparent;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+
+  &:hover {
+    background-color: #f0f0f0;
+  }
+
+  .login-icon {
+    width: 2rem;
+    height: 2rem;
+
+    .github {
+      width: 2.4rem;
+      height: 2.4rem;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .login-page {
+    .container {
+      .form-wrapper {
+        width: 60%;
+      }
+    }
+  }
+}
+@media (max-width: 992px) {
+  .login-page {
+    .container {
+      .form-wrapper {
+        width: 70%;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .login-page {
+    .container {
+      .form-wrapper {
+        width: 80%;
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+  .login-page {
+    .container {
+      .form-wrapper {
+        width: 95%;
+      }
     }
   }
 }
