@@ -1,69 +1,73 @@
 # Buklist open-source project
 
+### Buklist.com
 Manage you reading list with easy and track your progress for free at **buklist.com**.
 
 # About
-**Buklist.com project** is an open source project currently managed my [@serengia](https://github.com/serengia) .
+**Buklist.com** is an open source project with the mission to help people achieve their reading goals and contribute to making their future brighter. 
 
-**Mission** - To help people achieve their reading goals and contribute in making their
-            future brighter.
-            
-**Motivation/back-story** - After spending 30 minutes on social media, many times I would leave
-                feeling depressed instead of being uplifted. I quickly realised that millions of people feel the same and I wanted to change
-                that by creating a platform that actually empowers. That's how **buklist.com** was born. Our goal
-                is to make people feel proud of themselves for every minute they spend on our platform as we continue to make it better with more features. - James Serengia
+The project is currently managed by [@serengia](https://github.com/serengia).
 
+## Motivation and Backstory
+After spending 30 minutes on social media, many times I would leave feeling depressed instead of uplifted. I quickly realized that millions of people feel the same way, and I wanted to change that by creating a platform that actually empowers people. That's how Buklist.com was born.
+
+Our goal is to make people feel proud of themselves for every minute they spend on our platform. We aim to achieve this by continuously improving our platform with new features and functionalities.
+
+## Technology Stack
+Buklist.com is built using the following technologies:
+
+- **MongoDB** - a document-based database for storing user data.
+- **Express** - a minimalist web framework for building APIs.
+- **React** - a JavaScript library for building user interfaces.
+- **Next.js** - a React framework for building server-side rendered applications.
+- **Node.js** - a JavaScript runtime for building server-side applications.
 
 ## 🚀 Live Application
 
 [Live app version](https://buklist-open-source-project.vercel.app/) - NOTE: We will update the domain link to **bulkist.com** once we are through with some essential features.
 
----
-
-![screencapture-buklist-open-source-project-vercel-app-2023-03-14-09_17_54](https://user-images.githubusercontent.com/69452516/224912944-bf5c71ae-c126-400e-b152-475f722b8d1b.png)
-
----
-
-# Built with
-
-- React
-- Next JS
-- Redux
-- Express
-- MongoDB
-- and other related technologies
-
-
-## 👥 Authors <a name="authors"></a>
-
-👤 **James Serengia**
-
-- GitHub: [@serengia](https://github.com/serengia)
-- Twitter: [@jamesserengia](https://twitter.com/jamesserengia)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/james-serengia)
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-More features will be added from time to time.
 
 ## 🤝 Contributing
+We welcome contributions from the community to make Buklist.com a better platform. Here are some ways you can contribute:
 
-You want to be contribute in making this app better?
-Contributions, issues, and feature requests are welcome!
+### Bug Reports and Feature Requests
+If you come across any bugs while using Buklist.com or if you have any feature requests, please let us know by opening an issue in our Github repository. We will review the issue and take appropriate action.
 
-💡**Impotant note** - We are working on proper documentation on the steps one can take to contribute to this project. You can star the project not to miss any update.
+### Code Contributions
+To contribute code to Buklist.com, please follow these steps:
 
+### Fork this repository.
+Create a new branch with a descriptive name for the feature or bug fix you are working on.
+Make your changes to the code.
+Write tests for your changes.
+Submit a pull request to merge your changes into our main branch.
+We will review your changes and provide feedback if necessary. Once your changes meet our quality standards, we will merge them into our main branch.
+
+### Documentation Contributions
+If you would like to contribute to the documentation for Buklist.com, please follow these steps:
+
+### Fork this repository.
+Create a new branch with a descriptive name for the documentation changes you are making.
+Make your changes to the documentation.
+Submit a pull request to merge your changes into our main branch.
+We will review your changes and provide feedback if necessary. Once your changes meet our quality standards, we will merge them into our main branch.
+
+## Getting Started
+To get started with Buklist.com, you will need to install Node.js, MongoDB, and any other dependencies required for the project. Once you have everything installed, you can clone this repository and start building.
+
+
+## License
+Buklist.com is released under the [MIT](./MIT.md) License.
+
+## Contact
+If you have any questions or concerns about Buklist.com, please contact [@serengia](https://github.com/serengia).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments <a name="acknowledgements"></a>
+## Acknowledgments
 
 - Hat tip to anyone who inspired this project
 
-## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed.
