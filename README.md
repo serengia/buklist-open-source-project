@@ -1,7 +1,7 @@
 # Buklist open-source project
 
 ### Buklist.com
-Manage you reading list with easy and track your progress for free at **buklist.com**.
+Manage you reading list with easy and track your progress for free at [buklist.com](https://buklist.com).
 
 # About
 **Buklist.com** is an open source project with the mission to help people achieve their reading goals and contribute to making their future brighter. 
@@ -24,7 +24,7 @@ Buklist.com is built using the following technologies:
 
 ## 🚀 Live Application
 
-[Live app version](https://buklist-open-source-project.vercel.app/) - NOTE: We will update the domain link to **bulkist.com** once we are through with some essential features.
+[Live app version](https://buklist.com) .
 
 
 ## 🤝 Contributing
